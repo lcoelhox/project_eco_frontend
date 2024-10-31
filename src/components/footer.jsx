@@ -15,7 +15,7 @@ const Footer = () => {
       }}
     >
       <img
-        src={imgPrefeitura}
+        src="/img_prefeitura.png"
         alt="Apoio Prefeitura de Vila Velha"
         style={{
           width: "40%",
@@ -24,7 +24,7 @@ const Footer = () => {
         }}
       />
       <img
-        src={imgMulti}
+        src="/img_multivix_br.png"
         alt="Apoio Multivix"
         style={{
           width: "40%",

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
+
 import imgPrefeitura from "../../public/img_prefeitura.png";
 import imgMulti from "../../public/img_multivix_br.png";
 
@@ -35,7 +36,7 @@ const Login = () => {
             {/* Contêiner para as imagens */}
             <div className="d-flex justify-content-between w-100 mb-4" style={{ padding: '0 20px' }}>
                 <img
-                    src={imgPrefeitura}
+                    src="/img_prefeitura.png"
                     alt="Apoio Prefeitura de Vila Velha"
                     style={{
                         width: "40%",
@@ -44,7 +45,7 @@ const Login = () => {
                     }}
                 />
                 <img
-                    src={imgMulti}
+                    src="/img_multivix_br.png"
                     alt="Apoio Multivix"
                     style={{
                         width: "40%",
