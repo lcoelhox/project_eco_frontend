@@ -1,10 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
-import imgPrefeitura from "../assets/img_prefeitura.png";
-import imgMulti from "../assets/img_multivix_br.png";
-
-
+import imgPrefeitura from "../../public/img_prefeitura.png";
+import imgMulti from "../../public/img_multivix_br.png";
 
 const LINK_BANCKEND = "https://project-eco-backend.onrender.com"
 // const LINK_BANCKEND = "http://localhost:3000"

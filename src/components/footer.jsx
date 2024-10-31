@@ -1,3 +1,6 @@
+import imgPrefeitura from "../../public/img_prefeitura.png";
+import imgMulti from "../../public/img_multivix_br.png";
+
 const Footer = () => {
   return (
     <div
@@ -12,7 +15,7 @@ const Footer = () => {
       }}
     >
       <img
-        src="src/assets/img_prefeitura.png"
+        src={imgPrefeitura}
         alt="Apoio Prefeitura de Vila Velha"
         style={{
           width: "40%",
@@ -21,7 +24,7 @@ const Footer = () => {
         }}
       />
       <img
-        src="src/assets/img_multivix_br.png"
+        src={imgMulti}
         alt="Apoio Multivix"
         style={{
           width: "40%",

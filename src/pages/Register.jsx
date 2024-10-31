@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+const LINK_BANCKEND = "https://project-eco-backend.onrender.com"
+// const LINK_BANCKEND = "http://localhost:3000"
+
 const Register = () => {
   const [nome, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -16,7 +19,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3000/register", {
+      await axios.post(`${LINK_BANCKEND}/register`, {
         nome,
         email,
         password,
