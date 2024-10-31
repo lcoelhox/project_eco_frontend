@@ -1,6 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
+import imgPrefeitura from "../assets/img_prefeitura.png";
+import imgMulti from "../assets/img_multivix_br.png";
+
+
 
 const LINK_BANCKEND = "https://project-eco-backend.onrender.com"
 // const LINK_BANCKEND = "http://localhost:3000"
@@ -31,7 +35,7 @@ const Login = () => {
             {/* Contêiner para as imagens */}
             <div className="d-flex justify-content-between w-100 mb-4" style={{ padding: '0 20px' }}>
                 <img
-                    src="src/assets/img_prefeitura.png"
+                    src={imgPrefeitura}
                     alt="Apoio Prefeitura de Vila Velha"
                     style={{
                         width: "40%",
@@ -40,7 +44,7 @@ const Login = () => {
                     }}
                 />
                 <img
-                    src="src/assets/img_multivix_br.png"
+                    src={imgMulti}
                     alt="Apoio Multivix"
                     style={{
                         width: "40%",
