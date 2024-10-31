@@ -1,0 +1,15 @@
+.map-container {
+    height: 70vh;
+    width: 98vw;
+    margin: 7px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .map-container {
+      height: 70vh;
+      width: 95vw;
+      margin: 5px;
+    }
+  }
+  
