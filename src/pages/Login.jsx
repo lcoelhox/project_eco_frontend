@@ -13,6 +13,8 @@ const Login = () => {
 
     const navigate = useNavigate();
 
+    console.log("ABRIUUUUUUU")
+
     const handleSubmit = async (event) => {
         event.preventDefault();
 
