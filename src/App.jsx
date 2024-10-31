@@ -1,4 +1,4 @@
-import Login from './pages/login'
+import Login from './pages/Login'
 import MapContainer from './pages/Map'
 import Register from './pages/Register'
 import './App.css'
