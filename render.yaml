@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: project-eco-frontend
+    env: node
+    region: oregon  # Corrigido de "oragon" para "oregon"
+    plan: starter
+    buildCommand: npm run build
+    startCommand: npm start
+    autoDeploy: true
