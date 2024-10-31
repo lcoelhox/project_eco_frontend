@@ -12,4 +12,13 @@
       margin: 5px;
     }
   }
+
+
+  @media (max-width: 400px) {
+    .map-container {
+      height: 70vh;
+      width: 82vw;
+      margin: 5px;
+    }
+}
   
