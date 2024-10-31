@@ -2,6 +2,9 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 
+const LINK_BANCKEND = "https://project-eco-backend.onrender.com"
+// const LINK_BANCKEND = "http://localhost:3000"
+
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -12,7 +15,7 @@ const Login = () => {
         event.preventDefault();
 
         try {
-            await axios.post('http://localhost:3000/login', {
+            await axios.post(`${LINK_BANCKEND}/login`, {
                 email,
                 password
             });

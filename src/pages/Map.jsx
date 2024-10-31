@@ -7,6 +7,9 @@ import './Map.css';
 
 const API_KEY_GOOGLE = "AIzaSyCMGhJTw4JLvfy9BKpnX2czmPlXkX6o9o4";
 
+const LINK_BANCKEND = "https://project-eco-backend.onrender.com"
+// const LINK_BANCKEND = "http://localhost:3000"
+
 const Map = () => {
   const center = {
     lat: -20.3294,
@@ -17,7 +20,7 @@ const Map = () => {
 
   useEffect(() => {
       const getLocations = async () => {
-        const locations = await axios.get('http://localhost:3000/locations')
+        const locations = await axios.get(`${LINK_BANCKEND}/locations`)
         setSelectedPoints(locations.data);
       }
 
